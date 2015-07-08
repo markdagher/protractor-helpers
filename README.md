@@ -2,13 +2,13 @@
 protractor-helpers is a layer on top of protractor which abstracts commonly used test code into cleaner methods.
 
 # Installation
-`npm install protractor-helpers --save-dev`
+`npm install protractorhelpers --save-dev`
 
 # Setup
 In your `protractor.config.js` `onPrepare()` function, require the module
 
 	onPrepare: function(){
-		var helpers = require( 'protractor-helpers' );
+		var helpers = require( 'protractorhelpers' );
 
 		<!-- Append to GLOBAL object -->
 		GLOBAL.$model = helpers.$model;
