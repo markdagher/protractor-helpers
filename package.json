@@ -1,5 +1,5 @@
 {
-  "name": "protractor-helpers",
+  "name": "protractorhelpers",
   "version": "1.0.0",
   "description": "a layer on top of protractor which abstracts test code into neater, more robust, methods",
   "main": "protractor-helpers.js",
