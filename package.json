@@ -1,0 +1,28 @@
+{
+  "name": "protractor-helpers",
+  "version": "1.0.0",
+  "description": "a layer on top of prtractor which abstracts test code into neater, more robust, methods",
+  "main": "protractor-helpers.js",
+  "dependencies": {
+    "protractor": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markdagher/protractor-helpers.git"
+  },
+  "keywords": [
+    "protractor",
+    "helpers",
+    "angular"
+  ],
+  "author": "Mark Dagher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markdagher/protractor-helpers/issues"
+  },
+  "homepage": "https://github.com/markdagher/protractor-helpers"
+}
