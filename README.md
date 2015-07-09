@@ -10,7 +10,7 @@ In your `protractor.config.js` `onPrepare()` function, require the module
 	onPrepare: function(){
 		var helpers = require( 'protractorhelpers' );
 
-		<!-- Append to GLOBAL object -->
+		//Append to GLOBAL object
 		GLOBAL.$model = helpers.$model;
 		GLOBAL.$first = helpers.$first;
 		GLOBAL.expectText = helpers.expectText;
