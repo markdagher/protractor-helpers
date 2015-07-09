@@ -24,7 +24,7 @@ In your `protractor.config.js` `onPrepare()` function, require the module
 `$first( selector )` returns first element that matches selector  
 `expectText( selector, text )` asserts if text inside element is equal to the given string    
 `expectUrl( url )` asserts current url contains string  
-`waitForAlertText( expectedAlertText )` Waits for browser alert with the specified text then dismisses the alert
+`waitForAlertText( expectedAlertText )` Waits for browser alert which contains the specified text then dismisses the alert
 
 # Usage
 	it('should wait for alert that contains "Success!"', function(){
